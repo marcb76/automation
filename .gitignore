@@ -1,0 +1,24 @@
+# Python Virtual Environments & Cache
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Credentials, Secrets & Tokens
+.env
+*.env
+credentials.json
+token.json
+token.pickle
+*.pem
+*.key
+
+# Logs & Temporary Files
+*.log
+*.tmp
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
