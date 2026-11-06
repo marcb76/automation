@@ -18,9 +18,9 @@ FRONT_LOG_SPAN_IN_DAYS = 60
 def print_header():
   """Prints the script header with metadata, description, and objective."""
   print('==================================================')
-  print(' Script Name : marcb-syncCalendars.py')
+  print(' Script Name : syncCalendars.py')
   print(' Version     : 1.1.6')
-  print(' Created     : November 2006')
+  print(' Created     : November 2026')
   print(' Author      : Marc Bonet')
   print(' Description : Automated synchronization utility between Windows')
   print('               Outlook Desktop Calendar and Google Calendar.')
@@ -224,7 +224,7 @@ def main():
           ' bidirectionally.'
       ),
       usage=(
-          'python marcb-syncCalendars.py [--help] [--dryRun | --now]'
+          'python syncCalendars.py [--help] [--dryRun | --now]'
           ' [--backLogSpanInDays N] [--frontLogSpanInDays N]'
       ),
       add_help=True,

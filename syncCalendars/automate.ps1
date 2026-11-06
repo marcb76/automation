@@ -14,7 +14,7 @@ Set-Location -Path $PSScriptRoot
 Write-Host "Starting calendar synchronization..." -ForegroundColor Cyan
 
 # Execute the Python script using the local virtual environment interpreter
-& ".\venv\Scripts\python.exe" "marcb-syncCalendars.py" --now
+& ".\venv\Scripts\python.exe" "syncCalendars.py" --now
 
 if ($LASTEXITCODE -eq 0) {
     Write-Host "Synchronization completed successfully." -ForegroundColor Green
