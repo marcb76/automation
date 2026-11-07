@@ -24,7 +24,7 @@ Write-Host ""
 
 $TaskName   = "mb_syncCalendars"
 $TaskDesc   = "Hourly bidirectional synchronization between Outlook Desktop Calendar and Google Calendar"
-$ScriptPath = "C:\Users\marcb\OneDrive\Personal Managed\Automation\syncCalendars\automate.ps1"
+$ScriptPath = "C:\Users\marcb\OneDrive\Personal Managed\DevEnv\automation\syncCalendars\automate.ps1"
 
 Write-Host "Checking if task '$TaskName' already exists..." -ForegroundColor Yellow
 if (Get-ScheduledTask -TaskName $TaskName -ErrorAction SilentlyContinue) {
